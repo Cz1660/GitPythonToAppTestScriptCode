@@ -117,7 +117,7 @@ test_013 :
  immediately_register : '马上登录'
 #账号字符组成
 test_014 :
- username : '166！@#￥%？&*'
+ username : '166-+.//'
  password : 'aaa166010351'
  initem_un : '输入账号'
  initem_pd : '输入密码'
@@ -125,7 +125,7 @@ test_014 :
  assert_username : '1660155****'
  immediately_register : '马上登录'
 #错误账号、错误密码
-test_014 :
+test_015 :
  username : '16601550398'
  password : 'aaa166010352'
  initem_un : '输入账号'
