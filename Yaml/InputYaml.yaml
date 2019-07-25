@@ -34,7 +34,7 @@ test_004 :
  tag : '1'
  assert_username : '1660155****'
  immediately_register : '马上登录'
-正确账号、密码首空格
+#正确账号、密码首空格
 test_005 :
  username : '16601550399'
  password : ' aaa166010351'
