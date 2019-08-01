@@ -9,6 +9,8 @@ class GetDriver:
 
     def get_driver(self, app_package, app_activity):
         self.desired ={}
+        # 不需要每次都安装apk
+        self.desired['noReset'] = True
         self.desired['platformName'] = 'Android'
         self.desired['platformVersion'] = '8.0.0'
         self.desired['deviceName'] = 'HUAWEI nova2'

@@ -7,130 +7,130 @@ test_001 :
  tag : '0'
  assert_username : '1660155****'
  immediately_register : '马上登录'
-#账号首空格、正确密码
-test_002 :
- username : ' 16601550399'
- password : 'aaa166010351'
- initem_un : '输入账号'
- initem_pd : '输入密码'
- tag : '1'
- assert_username : '1660155****'
- immediately_register : '马上登录'
-#账号尾空格、正确密码
-test_003 :
- username : '16601550399 '
- password : 'aaa166010351'
- initem_un : '输入账号'
- initem_pd : '输入密码'
- tag : '0'
- assert_username : '1660155****'
- immediately_register : '马上登录'
-#账号中间空格（十二位）、正确密码
-test_004 :
- username : '166 01550399'
- password : 'aaa166010351'
- initem_un : '输入账号'
- initem_pd : '输入密码'
- tag : '1'
- assert_username : '1660155****'
- immediately_register : '马上登录'
-#正确账号、密码首空格
-test_005 :
- username : '16601550399'
- password : ' aaa166010351'
- initem_un : '输入账号'
- initem_pd : '输入密码'
- tag : '0'
- assert_username : '1660155****'
- immediately_register : '马上登录'
-#正确账号、密码尾空格
-test_006 :
- username : '16601550399'
- password : 'aaa166010351 '
- initem_un : '输入账号'
- initem_pd : '输入密码'
- tag : '0'
- assert_username : '1660155****'
- immediately_register : '马上登录'
-#错误账号(纯数字)、正确密码
-test_007 :
- username : '16601550398'
- password : 'aaa166010351'
- initem_un : '输入账号'
- initem_pd : '输入密码'
- tag : '1'
- assert_username : '1660155****'
- immediately_register : '马上登录'
-#正确账号、错误密码
-test_008 :
- username : '16601550399'
- password : 'aaa166010352'
- initem_un : '输入账号'
- initem_pd : '输入密码'
- tag : '1'
- assert_username : '1660155****'
- immediately_register : '马上登录'
-#只输入账号
-test_009 :
- username : '16601550399'
- password : ''
- initem_un : '输入账号'
- initem_pd : '输入密码'
- tag : '1'
- assert_username : '1660155****'
- immediately_register : '马上登录'
-#只输入密码
-test_010 :
- username : ''
- password : 'aaa166010351'
- initem_un : '输入账号'
- initem_pd : '输入密码'
- tag : '1'
- assert_username : '1660155****'
- immediately_register : '马上登录'
-#超长账号（前十一位正确）
-test_011 :
- username : '1660155039988'
- password : 'aaa166010351'
- initem_un : '输入账号'
- initem_pd : '输入密码'
- tag : '0'
- assert_username : '1660155****'
- immediately_register : '马上登录'
-#错误密码（前十一位正确）
-test_012 :
- username : '16601550399'
- password : 'aaa16601035178'
- initem_un : '输入账号'
- initem_pd : '输入密码'
- tag : '1'
- assert_username : '1660155****'
- immediately_register : '马上登录'
-#不输入账号和密码
-test_013 :
- username : ''
- password : ''
- initem_un : '输入账号'
- initem_pd : '输入密码'
- tag : '1'
- assert_username : '1660155****'
- immediately_register : '马上登录'
-#账号字符组成
-test_014 :
- username : '166-+.//'
- password : 'aaa166010351'
- initem_un : '输入账号'
- initem_pd : '输入密码'
- tag : '1'
- assert_username : '1660155****'
- immediately_register : '马上登录'
-#错误账号、错误密码
-test_015 :
- username : '16601550398'
- password : 'aaa166010352'
- initem_un : '输入账号'
- initem_pd : '输入密码'
- tag : '1'
- assert_username : '1660155****'
- immediately_register : '马上登录'
-
+##账号首空格、正确密码
+#test_002 :
+# username : ' 16601550399'
+# password : 'aaa166010351'
+# initem_un : '输入账号'
+# initem_pd : '输入密码'
+# tag : '1'
+# assert_username : '1660155****'
+# immediately_register : '马上登录'
+##账号尾空格、正确密码
+#test_003 :
+# username : '16601550399 '
+# password : 'aaa166010351'
+# initem_un : '输入账号'
+# initem_pd : '输入密码'
+# tag : '0'
+# assert_username : '1660155****'
+# immediately_register : '马上登录'
+##账号中间空格（十二位）、正确密码
+#test_004 :
+# username : '166 01550399'
+# password : 'aaa166010351'
+# initem_un : '输入账号'
+# initem_pd : '输入密码'
+# tag : '1'
+# assert_username : '1660155****'
+# immediately_register : '马上登录'
+##正确账号、密码首空格
+#test_005 :
+# username : '16601550399'
+# password : ' aaa166010351'
+# initem_un : '输入账号'
+# initem_pd : '输入密码'
+# tag : '0'
+# assert_username : '1660155****'
+# immediately_register : '马上登录'
+##正确账号、密码尾空格
+#test_006 :
+# username : '16601550399'
+# password : 'aaa166010351 '
+# initem_un : '输入账号'
+# initem_pd : '输入密码'
+# tag : '0'
+# assert_username : '1660155****'
+# immediately_register : '马上登录'
+##错误账号(纯数字)、正确密码
+#test_007 :
+# username : '16601550398'
+# password : 'aaa166010351'
+# initem_un : '输入账号'
+# initem_pd : '输入密码'
+# tag : '1'
+# assert_username : '1660155****'
+# immediately_register : '马上登录'
+##正确账号、错误密码
+#test_008 :
+# username : '16601550399'
+# password : 'aaa166010352'
+# initem_un : '输入账号'
+# initem_pd : '输入密码'
+# tag : '1'
+# assert_username : '1660155****'
+# immediately_register : '马上登录'
+##只输入账号
+#test_009 :
+# username : '16601550399'
+# password : ''
+# initem_un : '输入账号'
+# initem_pd : '输入密码'
+# tag : '1'
+# assert_username : '1660155****'
+# immediately_register : '马上登录'
+##只输入密码
+#test_010 :
+# username : ''
+# password : 'aaa166010351'
+# initem_un : '输入账号'
+# initem_pd : '输入密码'
+# tag : '1'
+# assert_username : '1660155****'
+# immediately_register : '马上登录'
+##超长账号（前十一位正确）
+#test_011 :
+# username : '1660155039988'
+# password : 'aaa166010351'
+# initem_un : '输入账号'
+# initem_pd : '输入密码'
+# tag : '0'
+# assert_username : '1660155****'
+# immediately_register : '马上登录'
+##错误密码（前十一位正确）
+#test_012 :
+# username : '16601550399'
+# password : 'aaa16601035178'
+# initem_un : '输入账号'
+# initem_pd : '输入密码'
+# tag : '1'
+# assert_username : '1660155****'
+# immediately_register : '马上登录'
+##不输入账号和密码
+#test_013 :
+# username : ''
+# password : ''
+# initem_un : '输入账号'
+# initem_pd : '输入密码'
+# tag : '1'
+# assert_username : '1660155****'
+# immediately_register : '马上登录'
+##账号字符组成
+#test_014 :
+# username : '166-+.//'
+# password : 'aaa166010351'
+# initem_un : '输入账号'
+# initem_pd : '输入密码'
+# tag : '1'
+# assert_username : '1660155****'
+# immediately_register : '马上登录'
+##错误账号、错误密码
+#test_015 :
+# username : '16601550398'
+# password : 'aaa166010352'
+# initem_un : '输入账号'
+# initem_pd : '输入密码'
+# tag : '1'
+# assert_username : '1660155****'
+# immediately_register : '马上登录'
+#
