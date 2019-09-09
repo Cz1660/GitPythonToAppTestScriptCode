@@ -77,7 +77,10 @@ class TestAppToLogin:
                     time.sleep(0.2)
                     # 点击确定退出当前登录弹窗中确定按钮
                     self.Dv.return_page().click_confirm_button()
-                    time.sleep(0.2)
+                    time.sleep(1)
+                    # 点击关闭红包按钮
+                    self.Dv.return_page().click_close_red_button()
+                    time.sleep(0.5)
                     try:
                         for i in range(2):
                             # 屏幕向下滑动
