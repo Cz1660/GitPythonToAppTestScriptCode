@@ -80,7 +80,6 @@ class TestAppToLogin:
                     time.sleep(1)
                     # 点击关闭红包按钮
                     self.Dv.return_page().click_close_red_button()
-                    time.sleep(0.5)
                     try:
                         for i in range(2):
                             # 屏幕向下滑动
