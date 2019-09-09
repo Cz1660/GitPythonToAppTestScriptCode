@@ -66,17 +66,19 @@ class TestAppToLogin:
                 time.sleep(1)
                 # 点击关闭红包按钮
                 self.Dv.return_page().click_close_red_button()
-            # 点击马上登录
-            self.Dv.driver.tap([(276, 257), (969, 325)], 0)
-            time.sleep(1)
-            assert self.Dv.return_page().find_element(Register.register_button)
-            # 输入账号
-            self.Dv.return_page().send_keys_text(Register.input_phone, username, initem_un)
-            # 输入密码
-            self.Dv.return_page().send_keys_text(Register.input_password, password, initem_pd)
-            # 点击登录
-            self.Dv.return_page().click_register_button()
-            time.sleep(1)
+            # 如果是未登录的状态，点击马上登录按钮
+            if self.Dv.return_page().find_element(Register.register_userName).text == immediately_register:
+                # 点击马上登录
+                self.Dv.driver.tap([(276, 257), (969, 325)], 0)
+                time.sleep(1)
+            if self.Dv.return_page().find_element(Register.register_button):
+                # 输入账号
+                self.Dv.return_page().send_keys_text(Register.input_phone, username, initem_un)
+                # 输入密码
+                self.Dv.return_page().send_keys_text(Register.input_password, password, initem_pd)
+                # 点击登录
+                self.Dv.return_page().click_register_button()
+                time.sleep(1)
             try:
                 if tag == '0':
                     time.sleep(1)
