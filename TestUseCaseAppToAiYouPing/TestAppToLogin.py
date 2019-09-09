@@ -49,6 +49,23 @@ class TestAppToLogin:
         allure.attach("用例编号", "{0}".format(test_number))
         time.sleep(1)
         try:
+            # 如果是已登录状态，先退出
+            if self.Dv.return_page().find_element(Register.register_userName).text == assert_username:
+                for i in range(2):
+                    # 屏幕向上滑动
+                    self.Dv.driver.swipe(10, 1666, 10, 99, 0)
+                time.sleep(0.5)
+                # 点击设置按钮
+                self.Dv.driver.tap([(45, 1654), (123, 1732)], 0)
+                time.sleep(0.3)
+                # 点击退出登录
+                self.Dv.return_page().click_quit_register_button()
+                time.sleep(0.2)
+                # 点击确定退出当前登录弹窗中确定按钮
+                self.Dv.return_page().click_confirm_button()
+                time.sleep(1)
+                # 点击关闭红包按钮
+                self.Dv.return_page().click_close_red_button()
             # 点击马上登录
             self.Dv.driver.tap([(276, 257), (969, 325)], 0)
             time.sleep(1)

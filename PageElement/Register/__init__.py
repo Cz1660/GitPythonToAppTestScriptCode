@@ -16,6 +16,8 @@ input_phone = (By.ID, 'com.huashidai.cl.lovegoods.lovegoods:id/al_et_user')
 input_password = (By.ID, 'com.huashidai.cl.lovegoods.lovegoods:id/al_et_pwd')
 # 设置按钮
 setting_button = (By.ID, 'com.huashidai.cl.lovegoods.lovegoods:id/fragment_personal_sz')
+# 已登录用户名
+register_userName = (By.ID,'com.huashidai.cl.lovegoods.lovegoods:id/fragment_personal_tvName')
 # 退出登录按钮
 quit_register_button = (By.ID, 'com.huashidai.cl.lovegoods.lovegoods:id/activity_setting_btnCancellation')
 # 弹窗确定按钮
