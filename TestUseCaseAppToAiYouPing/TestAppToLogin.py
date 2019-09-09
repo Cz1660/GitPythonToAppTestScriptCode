@@ -104,8 +104,8 @@ class TestAppToLogin:
                         for i in range(1):
                             # 屏幕向下滑动
                             self.Dv.driver.swipe(10, 99, 10, 1666, 0)
-                        # 退出成功，未找到登录按钮
-                        assert self.Dv.return_page().find_element(Register.my_issue_button)
+                        # 退出成功，找到马上登录按钮
+                        assert self.Dv.return_page().find_element(Register.register_userName)
                         # 获取当前页面的截图
                         self.Dv.return_page().gain_screenshot(test_number + '注销成功')
                     except Exception as e:
