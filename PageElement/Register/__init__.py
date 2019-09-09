@@ -22,3 +22,5 @@ quit_register_button = (By.ID, 'com.huashidai.cl.lovegoods.lovegoods:id/activity
 confirm_button = (By.ID, 'com.huashidai.cl.lovegoods.lovegoods:id/dialog_action')
 # 我发布的
 my_issue_button = (By.ID, 'com.huashidai.cl.lovegoods.lovegoods:id/fragment_personal_fb')
+# 关闭红包
+close_red_button = (By.ID, 'com.huashidai.cl.lovegoods.lovegoods:id/red_packet_btn_close')

@@ -45,8 +45,7 @@ class TestAppToLogin:
     # 利用参数化实现多个用例（账号登录操作）
     @pytest.mark.parametrize('test_number, username, password, initem_un, initem_pd, tag, assert_username, '
                              'immediately_register', gain_yaml())
-    def test_register(self, test_number, username, password, initem_un, initem_pd, tag, assert_username,
-                      immediately_register):
+    def test_register(self, test_number, username, password, initem_un, initem_pd, tag, assert_username,immediately_register):
         allure.attach("用例编号", "{0}".format(test_number))
         time.sleep(1)
         try:
@@ -63,7 +62,9 @@ class TestAppToLogin:
             time.sleep(1)
             try:
                 if tag == '0':
-                    time.sleep(0.2)
+                    time.sleep(1)
+                    # 点击关闭红包按钮
+                    self.Dv.return_page().click_close_red_button()
                     for i in range(2):
                         # 屏幕向上滑动
                         self.Dv.driver.swipe(10, 1666, 10, 99, 0)

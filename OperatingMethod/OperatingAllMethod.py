@@ -44,3 +44,7 @@ class OperatingAllMethod(BaseMethod):
     def click_my_issue_button(self):
         self.click_element(Register.my_issue_button)
 
+    @allure.step(title='点击关闭红包按钮')
+    def click_close_red_button(self):
+        self.click_element(Register.close_red_button)
+
