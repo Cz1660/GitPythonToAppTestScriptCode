@@ -1,5 +1,6 @@
 from selenium.webdriver.common.by import By
 
+yet_register_userName = '1660155****'
 # 爱优品按钮
 ayp_button = (By.ID, 'com.huashidai.cl.lovegoods.lovegoods:id/ip_ll_enter')
 # 始终允许按钮
@@ -26,3 +27,5 @@ confirm_button = (By.ID, 'com.huashidai.cl.lovegoods.lovegoods:id/dialog_action'
 my_issue_button = (By.ID, 'com.huashidai.cl.lovegoods.lovegoods:id/fragment_personal_fb')
 # 关闭红包
 close_red_button = (By.ID, 'com.huashidai.cl.lovegoods.lovegoods:id/red_packet_btn_close')
+# 回退按钮
+back_button = (By.ID, 'com.huashidai.cl.lovegoods.lovegoods:id/img_finish')

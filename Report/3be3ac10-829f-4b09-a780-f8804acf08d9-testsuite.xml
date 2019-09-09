@@ -1,0 +1,481 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1568023481720" stop="1568023827939">
+  <name>TestUseCaseAppToAiYouPing</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1568023481720" status="passed" stop="1568023550145">
+      <name>TestAppToLogin.TestAppToLogin.test_register[test_001-16601550399-aaa166010351-\u8f93\u5165\u8d26\u53f7-\u8f93\u5165\u5bc6\u7801-0-1660155****-\u9a6c\u4e0a\u767b\u5f55]</name>
+      <attachments>
+        <attachment source="fa767616-1d5b-4277-b7dc-dcdda7280e7e-attachment.txt" title="用例编号" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="8512-MainThread"/>
+        <label name="host" value="EDIANZU-9E3HI0F"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1568023518557" status="passed" stop="1568023519271">
+          <name>点击退出登录按钮</name>
+          <title>点击退出登录按钮</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1568023519471" status="passed" stop="1568023520314">
+          <name>点击弹窗中确定按钮</name>
+          <title>点击弹窗中确定按钮</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1568023521314" status="passed" stop="1568023524465">
+          <name>点击关闭红包按钮</name>
+          <title>点击关闭红包按钮</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1568023526556" status="passed" stop="1568023535431">
+          <name>输入操作</name>
+          <title>输入操作</title>
+          <attachments>
+            <attachment source="29f3b5cb-cf4a-4971-9058-7084b6a86efc-attachment.txt" title="输入账号" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1568023535431" status="passed" stop="1568023542138">
+          <name>输入操作</name>
+          <title>输入操作</title>
+          <attachments>
+            <attachment source="597dab2b-5a0a-416a-8ac3-e99a05dd2c50-attachment.txt" title="输入密码" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1568023542138" status="passed" stop="1568023543040">
+          <name>点击登录按钮</name>
+          <title>点击登录按钮</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1568023545040" status="passed" stop="1568023547023">
+          <name>点击关闭红包按钮</name>
+          <title>点击关闭红包按钮</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1568023547074" status="passed" stop="1568023550145">
+          <name>截图操作</name>
+          <title>截图操作</title>
+          <attachments>
+            <attachment source="09871865-031e-42f2-8da2-71c143df9ebd-attachment.txt" title="图片名字" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1568023550152" status="passed" stop="1568023569265">
+      <name>TestAppToLogin.TestAppToLogin.test_register[test_002- 16601550399-aaa166010351-\u8f93\u5165\u8d26\u53f7-\u8f93\u5165\u5bc6\u7801-1-1660155****-\u9a6c\u4e0a\u767b\u5f55]</name>
+      <attachments>
+        <attachment source="57ceb293-c2ae-454c-8ce5-bcb41a7bbb55-attachment.txt" title="用例编号" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="8512-MainThread"/>
+        <label name="host" value="EDIANZU-9E3HI0F"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1568023552202" status="failed" stop="1568023567362">
+          <name>输入操作</name>
+          <title>输入操作</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1568023567362" status="passed" stop="1568023569265">
+          <name>截图操作</name>
+          <title>截图操作</title>
+          <attachments>
+            <attachment source="282b9622-65b7-4a68-8045-9bb2311ce0ae-attachment.txt" title="图片名字" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1568023569267" status="passed" stop="1568023589473">
+      <name>TestAppToLogin.TestAppToLogin.test_register[test_003-16601550399 -aaa166010351-\u8f93\u5165\u8d26\u53f7-\u8f93\u5165\u5bc6\u7801-0-1660155****-\u9a6c\u4e0a\u767b\u5f55]</name>
+      <attachments>
+        <attachment source="ceff0dcc-d7b4-4ad3-9f58-2ca3a7689bae-attachment.txt" title="用例编号" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="8512-MainThread"/>
+        <label name="host" value="EDIANZU-9E3HI0F"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1568023571338" status="failed" stop="1568023586791">
+          <name>输入操作</name>
+          <title>输入操作</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1568023586791" status="passed" stop="1568023589473">
+          <name>截图操作</name>
+          <title>截图操作</title>
+          <attachments>
+            <attachment source="f1eb03f2-6202-4947-b875-0f6a584b8e08-attachment.txt" title="图片名字" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1568023589476" status="passed" stop="1568023610231">
+      <name>TestAppToLogin.TestAppToLogin.test_register[test_004-166 01550399-aaa166010351-\u8f93\u5165\u8d26\u53f7-\u8f93\u5165\u5bc6\u7801-1-1660155****-\u9a6c\u4e0a\u767b\u5f55]</name>
+      <attachments>
+        <attachment source="ff3c96bd-d910-4484-beea-f87fce7dfe5c-attachment.txt" title="用例编号" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="8512-MainThread"/>
+        <label name="host" value="EDIANZU-9E3HI0F"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1568023591536" status="failed" stop="1568023607174">
+          <name>输入操作</name>
+          <title>输入操作</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1568023607174" status="passed" stop="1568023610230">
+          <name>截图操作</name>
+          <title>截图操作</title>
+          <attachments>
+            <attachment source="8d07fc5b-cd06-40b9-8cd7-c31c436f0d57-attachment.txt" title="图片名字" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1568023610237" status="passed" stop="1568023630865">
+      <name>TestAppToLogin.TestAppToLogin.test_register[test_005-16601550399- aaa166010351-\u8f93\u5165\u8d26\u53f7-\u8f93\u5165\u5bc6\u7801-0-1660155****-\u9a6c\u4e0a\u767b\u5f55]</name>
+      <attachments>
+        <attachment source="0833dee1-1e9b-49df-839a-afb849aeb85b-attachment.txt" title="用例编号" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="8512-MainThread"/>
+        <label name="host" value="EDIANZU-9E3HI0F"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1568023612289" status="failed" stop="1568023628270">
+          <name>输入操作</name>
+          <title>输入操作</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1568023628270" status="passed" stop="1568023630864">
+          <name>截图操作</name>
+          <title>截图操作</title>
+          <attachments>
+            <attachment source="29443b30-fe9b-4e6a-9514-d88b50e3f62d-attachment.txt" title="图片名字" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1568023630879" status="passed" stop="1568023651413">
+      <name>TestAppToLogin.TestAppToLogin.test_register[test_006-16601550399-aaa166010351 -\u8f93\u5165\u8d26\u53f7-\u8f93\u5165\u5bc6\u7801-0-1660155****-\u9a6c\u4e0a\u767b\u5f55]</name>
+      <attachments>
+        <attachment source="4b93cbca-fec4-416e-9614-25ffac7a3dc1-attachment.txt" title="用例编号" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="8512-MainThread"/>
+        <label name="host" value="EDIANZU-9E3HI0F"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1568023632931" status="failed" stop="1568023649065">
+          <name>输入操作</name>
+          <title>输入操作</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1568023649065" status="passed" stop="1568023651413">
+          <name>截图操作</name>
+          <title>截图操作</title>
+          <attachments>
+            <attachment source="ff70538c-643d-4d28-a00b-ab54a3412cd7-attachment.txt" title="图片名字" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1568023651416" status="passed" stop="1568023671498">
+      <name>TestAppToLogin.TestAppToLogin.test_register[test_007-16601550398-aaa166010351-\u8f93\u5165\u8d26\u53f7-\u8f93\u5165\u5bc6\u7801-1-1660155****-\u9a6c\u4e0a\u767b\u5f55]</name>
+      <attachments>
+        <attachment source="17f20c20-b40c-4a47-ac16-0e59e7cbaac1-attachment.txt" title="用例编号" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="8512-MainThread"/>
+        <label name="host" value="EDIANZU-9E3HI0F"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1568023653465" status="failed" stop="1568023668920">
+          <name>输入操作</name>
+          <title>输入操作</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1568023668920" status="passed" stop="1568023671497">
+          <name>截图操作</name>
+          <title>截图操作</title>
+          <attachments>
+            <attachment source="02477a60-8b66-46b9-8b3a-5a6ed1a9c99e-attachment.txt" title="图片名字" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1568023671502" status="passed" stop="1568023691296">
+      <name>TestAppToLogin.TestAppToLogin.test_register[test_008-16601550399-aaa166010352-\u8f93\u5165\u8d26\u53f7-\u8f93\u5165\u5bc6\u7801-1-1660155****-\u9a6c\u4e0a\u767b\u5f55]</name>
+      <attachments>
+        <attachment source="5bf88f5f-8366-4488-b395-860221a8ef20-attachment.txt" title="用例编号" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="8512-MainThread"/>
+        <label name="host" value="EDIANZU-9E3HI0F"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1568023673581" status="failed" stop="1568023688908">
+          <name>输入操作</name>
+          <title>输入操作</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1568023688908" status="passed" stop="1568023691295">
+          <name>截图操作</name>
+          <title>截图操作</title>
+          <attachments>
+            <attachment source="c7f3be40-45fe-46a1-a71d-f8c7f12d710c-attachment.txt" title="图片名字" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1568023691299" status="passed" stop="1568023711185">
+      <name>TestAppToLogin.TestAppToLogin.test_register[test_009-16601550399--\u8f93\u5165\u8d26\u53f7-\u8f93\u5165\u5bc6\u7801-1-1660155****-\u9a6c\u4e0a\u767b\u5f55]</name>
+      <attachments>
+        <attachment source="88515ea1-a38f-49ce-a990-33f8d6ea6ed6-attachment.txt" title="用例编号" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="8512-MainThread"/>
+        <label name="host" value="EDIANZU-9E3HI0F"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1568023693350" status="failed" stop="1568023709480">
+          <name>输入操作</name>
+          <title>输入操作</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1568023709480" status="passed" stop="1568023711184">
+          <name>截图操作</name>
+          <title>截图操作</title>
+          <attachments>
+            <attachment source="2125437d-304f-4f23-89bb-c89cffa1d98e-attachment.txt" title="图片名字" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1568023711187" status="passed" stop="1568023730503">
+      <name>TestAppToLogin.TestAppToLogin.test_register[test_010--aaa166010351-\u8f93\u5165\u8d26\u53f7-\u8f93\u5165\u5bc6\u7801-1-1660155****-\u9a6c\u4e0a\u767b\u5f55]</name>
+      <attachments>
+        <attachment source="674c1d77-7dd9-4a45-98a4-a8353b6bc909-attachment.txt" title="用例编号" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="8512-MainThread"/>
+        <label name="host" value="EDIANZU-9E3HI0F"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1568023713369" status="failed" stop="1568023728706">
+          <name>输入操作</name>
+          <title>输入操作</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1568023728706" status="passed" stop="1568023730503">
+          <name>截图操作</name>
+          <title>截图操作</title>
+          <attachments>
+            <attachment source="e187f8de-cfab-4c0c-844c-b7338a08be51-attachment.txt" title="图片名字" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1568023730507" status="passed" stop="1568023749922">
+      <name>TestAppToLogin.TestAppToLogin.test_register[test_011-1660155039988-aaa166010351-\u8f93\u5165\u8d26\u53f7-\u8f93\u5165\u5bc6\u7801-0-1660155****-\u9a6c\u4e0a\u767b\u5f55]</name>
+      <attachments>
+        <attachment source="32b13b73-4167-461e-8cf3-de311c4fd792-attachment.txt" title="用例编号" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="8512-MainThread"/>
+        <label name="host" value="EDIANZU-9E3HI0F"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1568023732555" status="failed" stop="1568023748115">
+          <name>输入操作</name>
+          <title>输入操作</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1568023748115" status="passed" stop="1568023749922">
+          <name>截图操作</name>
+          <title>截图操作</title>
+          <attachments>
+            <attachment source="d7106268-79b0-48e6-b277-e2e7426d7dd3-attachment.txt" title="图片名字" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1568023749927" status="passed" stop="1568023769539">
+      <name>TestAppToLogin.TestAppToLogin.test_register[test_012-16601550399-aaa16601035178-\u8f93\u5165\u8d26\u53f7-\u8f93\u5165\u5bc6\u7801-1-1660155****-\u9a6c\u4e0a\u767b\u5f55]</name>
+      <attachments>
+        <attachment source="f57b7800-073e-4f42-9667-fc3215c613b3-attachment.txt" title="用例编号" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="8512-MainThread"/>
+        <label name="host" value="EDIANZU-9E3HI0F"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1568023751985" status="failed" stop="1568023767568">
+          <name>输入操作</name>
+          <title>输入操作</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1568023767568" status="passed" stop="1568023769539">
+          <name>截图操作</name>
+          <title>截图操作</title>
+          <attachments>
+            <attachment source="5fe25e4c-da5f-4f82-a4c9-fff6c7cb8698-attachment.txt" title="图片名字" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1568023769543" status="passed" stop="1568023788416">
+      <name>TestAppToLogin.TestAppToLogin.test_register[test_013---\u8f93\u5165\u8d26\u53f7-\u8f93\u5165\u5bc6\u7801-1-1660155****-\u9a6c\u4e0a\u767b\u5f55]</name>
+      <attachments>
+        <attachment source="767d7db0-dcac-417d-b3de-2af73110ee81-attachment.txt" title="用例编号" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="8512-MainThread"/>
+        <label name="host" value="EDIANZU-9E3HI0F"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1568023771596" status="failed" stop="1568023786625">
+          <name>输入操作</name>
+          <title>输入操作</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1568023786625" status="passed" stop="1568023788416">
+          <name>截图操作</name>
+          <title>截图操作</title>
+          <attachments>
+            <attachment source="5abede44-c0ff-470b-8f4e-c7b47b616a42-attachment.txt" title="图片名字" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1568023788432" status="passed" stop="1568023807991">
+      <name>TestAppToLogin.TestAppToLogin.test_register[test_014-166-+.//-aaa166010351-\u8f93\u5165\u8d26\u53f7-\u8f93\u5165\u5bc6\u7801-1-1660155****-\u9a6c\u4e0a\u767b\u5f55]</name>
+      <attachments>
+        <attachment source="8fa39da1-697c-410a-a6ac-f0fe59ab88c2-attachment.txt" title="用例编号" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="8512-MainThread"/>
+        <label name="host" value="EDIANZU-9E3HI0F"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1568023790483" status="failed" stop="1568023806085">
+          <name>输入操作</name>
+          <title>输入操作</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1568023806085" status="passed" stop="1568023807991">
+          <name>截图操作</name>
+          <title>截图操作</title>
+          <attachments>
+            <attachment source="b40a140a-0f3e-486a-a874-44aa1efad277-attachment.txt" title="图片名字" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1568023808006" status="passed" stop="1568023827939">
+      <name>TestAppToLogin.TestAppToLogin.test_register[test_015-16601550398-aaa166010352-\u8f93\u5165\u8d26\u53f7-\u8f93\u5165\u5bc6\u7801-1-1660155****-\u9a6c\u4e0a\u767b\u5f55]</name>
+      <attachments>
+        <attachment source="8c4b900a-095a-4e35-a22d-f08601f8bc05-attachment.txt" title="用例编号" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="8512-MainThread"/>
+        <label name="host" value="EDIANZU-9E3HI0F"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1568023810044" status="failed" stop="1568023825799">
+          <name>输入操作</name>
+          <title>输入操作</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1568023825799" status="passed" stop="1568023827939">
+          <name>截图操作</name>
+          <title>截图操作</title>
+          <attachments>
+            <attachment source="b10e3af2-175e-4581-876f-b07c50665ff1-attachment.txt" title="图片名字" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

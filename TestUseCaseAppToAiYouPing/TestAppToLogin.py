@@ -35,6 +35,26 @@ class TestAppToLogin:
         time.sleep(4)
         # 点击我的按钮
         self.Dv.driver.tap([(943, 1866), (1001, 1905)], 0)
+        if self.Dv.return_page().find_element(Register.register_login).text == Register.yet_register_userName:
+            time.sleep(1)
+            for i in range(2):
+                # 屏幕向上滑动
+                self.Dv.driver.swipe(10, 1666, 10, 99, 0)
+            time.sleep(0.5)
+            # 点击设置按钮
+            self.Dv.driver.tap([(45, 1654), (123, 1732)], 0)
+            time.sleep(0.3)
+            # 点击退出登录
+            self.Dv.return_page().click_quit_register_button()
+            time.sleep(0.2)
+            # 点击确定退出当前登录弹窗中确定按钮
+            self.Dv.return_page().click_confirm_button()
+            time.sleep(1)
+            # 点击关闭红包按钮
+            self.Dv.return_page().click_close_red_button()
+            for i in range(1):
+                # 屏幕向下滑动
+                self.Dv.driver.swipe(10, 99, 10, 1666, 0)
 
     # 关闭app
     def teardown_class(self):
@@ -48,38 +68,18 @@ class TestAppToLogin:
     def test_register(self, test_number, username, password, initem_un, initem_pd, tag, assert_username,immediately_register):
         allure.attach("用例编号", "{0}".format(test_number))
         time.sleep(1)
+
         try:
-            # 如果是已登录状态，先退出
-            if self.Dv.return_page().find_element(Register.register_userName).text == assert_username:
-                for i in range(2):
-                    # 屏幕向上滑动
-                    self.Dv.driver.swipe(10, 1666, 10, 99, 0)
-                time.sleep(0.5)
-                # 点击设置按钮
-                self.Dv.driver.tap([(45, 1654), (123, 1732)], 0)
-                time.sleep(0.3)
-                # 点击退出登录
-                self.Dv.return_page().click_quit_register_button()
-                time.sleep(0.2)
-                # 点击确定退出当前登录弹窗中确定按钮
-                self.Dv.return_page().click_confirm_button()
-                time.sleep(1)
-                # 点击关闭红包按钮
-                self.Dv.return_page().click_close_red_button()
-            # 如果是未登录的状态，点击马上登录按钮
-            if self.Dv.return_page().find_element(Register.register_userName).text == immediately_register:
-                # 点击马上登录
-                # self.Dv.driver.tap([(276, 257), (969, 325)], 0)
-                self.Dv.return_page().click_register_login_button()
-                time.sleep(1)
-            if self.Dv.return_page().find_element(Register.register_button):
-                # 输入账号
-                self.Dv.return_page().send_keys_text(Register.input_phone, username, initem_un)
-                # 输入密码
-                self.Dv.return_page().send_keys_text(Register.input_password, password, initem_pd)
-                # 点击登录
-                self.Dv.return_page().click_register_button()
-                time.sleep(1)
+            # 点击马上登录
+            self.Dv.driver.tap([(276, 257), (969, 325)], 0)
+            time.sleep(1)
+            # 输入账号
+            self.Dv.return_page().send_keys_text(Register.input_phone, username, initem_un)
+            # 输入密码
+            self.Dv.return_page().send_keys_text(Register.input_password, password, initem_pd)
+            # 点击登录
+            self.Dv.return_page().click_register_button()
+            time.sleep(1)
             try:
                 if tag == '0':
                     time.sleep(1)
@@ -104,21 +104,19 @@ class TestAppToLogin:
                         for i in range(1):
                             # 屏幕向下滑动
                             self.Dv.driver.swipe(10, 99, 10, 1666, 0)
-                        # 退出成功，找到马上登录按钮
-                        assert self.Dv.return_page().find_element(Register.register_userName)
                         # 获取当前页面的截图
                         self.Dv.return_page().gain_screenshot(test_number + '注销成功')
+                        print('退出成功')
                     except Exception as e:
                         # 获取当前页面的截图
                         self.Dv.return_page().gain_screenshot(test_number + '注销失败')
                 if tag == '1':
                     self.Dv.return_page().gain_screenshot(test_number + '登录失败')
+                    # 点击回退按钮
+                    self.Dv.return_page().click_back_button()
             except Exception as e:
                 # 获取当前页面的截图
-                self.Dv.return_page().gain_screenshot(test_number + '异常')
+                self.Dv.return_page().gain_screenshot(test_number + '登录后置操作异常')
         except Exception as e:
             # 获取当前页面的截图
-            self.Dv.return_page().gain_screenshot(test_number + '大异常')
-
-
-
+            self.Dv.return_page().gain_screenshot(test_number + '登录操作异常')

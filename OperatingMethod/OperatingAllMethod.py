@@ -48,3 +48,6 @@ class OperatingAllMethod(BaseMethod):
     def click_close_red_button(self):
         self.click_element(Register.close_red_button)
 
+    @allure.step(title='点击回退按钮')
+    def click_back_button(self):
+        self.click_element(Register.back_button)
